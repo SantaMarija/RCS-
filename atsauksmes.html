@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Allure</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/noformejums.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+</head>
+
+<body>
+
+  <div class="keksaform">
+    <label for="keksis">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+</div>
+    <input type="checkbox" id="keksis">
+
+    <nav class="nav">
+
+        <div class="logo">
+        <a href="index.html"><img src="img/allure_logo.gif" width="auto" height="55"></a>
+        </div>
+
+        <div class="sadalas">
+            <a href="index.html">Par Allure</a>
+            <a href="pasutijumi.html">Pasūtījumi</a>
+            <a href="galerija.html">Galerija</a>
+            <a href="kontakti.html">Kontakti</a>
+        </div>       
+            
+        <div>
+            <a class="soctikli" href="https://www.facebook.com/allure.lv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="soctikli" href="https://www.instagram.com/allure_ielugumi/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="soctikli" href="https://twitter.com/ielugumiallure" target="_blank"><i class="fab fa-twitter"></i></a>                                
+        </div>
+
+
+    </nav>
+
+
+    <h2 class="pukes" style="text-align:center"> I</h2><br/>
+
+<form action="php/komentari.php" method="POST">
+          <div class="contact-form">
+            <label class="reg-labels" for="name" >Vārds</lablel><br/>
+            <input class="form-control" type="text" name="name" placeholder="Jūsu vārds" required/>
+          </div> <br/>
+          <div class="contact-form">
+            <label class="reg-labels" for="email">E-pasts</label><br/>
+            <input class="form-control" type="email" name="email" placeholder="E-pasts" required/>
+          </div>  <br/>
+          <div class="contact-form">
+            <label class="reg-labels" for="comment">Komentārs</label><br/>
+            <input class="form-control" type="text" name="comment" placeholder="Jūsu atsauksme" required/>
+          </div><br/>
+                  
+          <input class="btn2" name="submit" type="submit" value="Iesniegt"/>
+</form>
+
+
+<br/><br/><br/><br/>
+
+  <footer class="kajene">
+    <div class="kajene_bloks">
+
+      <div class="allure_kajene">
+          <h2><img src="img/logo.png" width="auto" height="50"></h2>
+          <p class="tekts_kajene">Padarīsim Jūsu svētkus<br/> vēl brīnišķīgākus!</p>        
+      </div>
+
+      <div class="kontakti_kajene">
+          <h2><a href="kontakti.html" style="color: white; text-decoration: none;"> Kontakti</a></h2>
+          <p class="tekts_kajene">Santa Ore<br/> +371 28 752 829<br/> ielūgumi.allure@gmail.com</p>
+      </div>
+
+      <div class="seko_kajene">
+          <h2>Seko mums</h2>
+              <p class="tekts_kajene"> un uzzini vairāk</p>              
+              <a class="ikonas_kajene" href="https://www.facebook.com/allure.lv/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a class="ikonas_kajene" href="https://www.instagram.com/allure_ielugumi/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a class="ikonas_kajene" href="https://twitter.com/ielugumiallure" target="_blank"><i class="fab fa-twitter"></i></a>                               
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
